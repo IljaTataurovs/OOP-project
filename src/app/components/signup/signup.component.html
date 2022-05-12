@@ -1,0 +1,60 @@
+<div class="sing-in-container">
+  <h2>Sign Up</h2>
+  <form #usersignup="ngForm" (ngSubmit)="signUp(usersignup.value)">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input
+        type="email"
+        name="Email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        ngModel
+      />
+    </div>
+    <div class="error-message" *ngIf="!isEmailRight">
+      Email has incorrect form!
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input
+        name="Password"
+        type="password"
+        class="form-control"
+        id="exampleInputPassword1"
+        ngModel
+      />
+    </div>
+    <div class="error-message" *ngIf="!isPasswordRight">
+      Password must be 8 symbols length minimum with one number and one big
+      letter
+    </div>
+    <div class="mb-3 row">
+      <div class="col">
+        <input
+          type="text"
+          name="FirstName"
+          class="form-control"
+          placeholder="First name"
+          aria-label="First name"
+          ngModel
+        />
+      </div>
+      <div class="col">
+        <input
+          type="text"
+          name="LastName"
+          class="form-control"
+          placeholder="Last name"
+          aria-label="Last name"
+          ngModel
+        />
+      </div>
+    </div>
+    <div class="error-message" *ngIf="!isNameRight">
+      Firstname or lastname has incorrect form!
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

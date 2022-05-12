@@ -1,0 +1,17 @@
+.error-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("https://www.reviewofreligions.org/wp-content/uploads/2020/08/shutterstock_557126443-1024x683.jpg");
+  height: calc(100vh - 3.5rem);
+  background-size: 100% 100%;
+  color: aliceblue;
+  padding-bottom: 5rem;
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+}

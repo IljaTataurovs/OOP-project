@@ -1,0 +1,28 @@
+.sing-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+.sign-in-inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 1rem;
+  input {
+    height: 2.5rem;
+    margin: 0.5rem;
+    border-radius: 0.4rem;
+  }
+}
+.error-message {
+  background-color: red;
+  color: antiquewhite;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}

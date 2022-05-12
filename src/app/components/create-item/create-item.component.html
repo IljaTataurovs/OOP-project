@@ -1,0 +1,60 @@
+<div class="create-item-page-container">
+  <form #create="ngForm" (ngSubmit)="createItem(create.value)">
+    <h2>Fill your item data</h2>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input
+        type="text"
+        name="Name"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Enter email"
+        ngModel
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Description</label>
+      <input
+        type="text"
+        name="Description"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Enter email"
+        ngModel
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Price</label>
+      <input
+        type="number"
+        name="Price"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Enter email"
+        ngModel
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Your preces img url</label>
+      <input
+        type="text"
+        name="ImageUrl"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Enter email"
+        ngModel
+      />
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+      <label class="form-check-label" for="exampleCheck1"
+        >Do you love cookies?</label
+      >
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
