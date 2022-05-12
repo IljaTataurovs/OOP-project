@@ -1,3 +1,18 @@
 .navbar-expand-sm .navbar-collapse {
   justify-content: flex-end;
 }
+.nav-item {
+  border: 2px solid white;
+  margin-left: 1rem;
+  border-radius: 13px;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+.navbar-brand {
+  background: url("https://www.pikpng.com/pngl/b/451-4514364_random-acts-of-pizza-reddit-alien-clipart.png");
+  height: 3rem;
+  width: 2rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 1rem;
+}

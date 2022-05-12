@@ -17,6 +17,7 @@ import { ProfilePageComponent } from './components/profile-page/profile-page.com
 import { CreateItemComponent } from './components/create-item/create-item.component';
 import { ShowMoreComponent } from './components/show-more/show-more.component';
 import { DataService } from './dataService';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { DataService } from './dataService';
     ProfilePageComponent,
     CreateItemComponent,
     ShowMoreComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

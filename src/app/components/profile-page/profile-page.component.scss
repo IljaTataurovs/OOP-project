@@ -1,6 +1,8 @@
 .profile-main-container {
+  color: white;
   padding: 2rem;
   display: grid;
+  height: calc(100vh - 18.5rem);
   grid-template-columns: repeat(auto-fill, minmax(10rem, 48%));
   grid-gap: 30px;
   align-items: stretch;
